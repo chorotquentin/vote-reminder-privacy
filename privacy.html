@@ -1,52 +1,35 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Politique de Confidentialité – Vote Reminder</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 50px auto;
-      padding: 20px;
-      line-height: 1.6;
-      color: #333;
-      background-color: #f9f9f9;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1, h2 { color: #007bff; }
-    a { color: #007bff; text-decoration: none; }
-  </style>
-</head>
-<body>
-  <h1>Politique de Confidentialité – Vote Reminder</h1>
+Politique de Confidentialité – Hope RP Vote
+Dernière mise à jour : 2025-09-09
 
-  <p>Vote Reminder est une extension Chrome conçue pour faciliter le vote sur Top Serveur GTA en rappelant à l’utilisateur quand il peut voter à nouveau.</p>
+Hope RP Vote est une extension Chrome qui aide l’utilisateur à se rappeler de voter à nouveau pour son serveur sur Top-Serveurs en affichant un compte à rebours et en envoyant des notifications.
 
-  <h2>Collecte de données</h2>
-  <p>Cette extension <strong>ne collecte aucune donnée personnelle</strong>. Toutes les informations, comme :</p>
-  <ul>
-    <li>le pseudo que vous utilisez pour voter</li>
-    <li>la date et l’heure de votre dernier vote</li>
-  </ul>
-  <p>sont stockées <strong>localement dans votre navigateur</strong> via l’API <code>chrome.storage</code>. Ces informations ne sont jamais envoyées à un serveur externe et ne sont partagées avec personne.</p>
+Collecte et traitement des données
+Nous ne collectons, n’envoyons ni ne partageons aucune donnée personnelle vers des serveurs externes. Les informations suivantes peuvent être stockées localement dans votre navigateur via l’API chrome.storage :
 
-  <h2>Permissions utilisées</h2>
-  <p>L’extension utilise les permissions suivantes :</p>
-  <ul>
-    <li><strong>storage :</strong> pour stocker localement le pseudo et le dernier vote.</li>
-    <li><strong>notifications :</strong> pour envoyer des rappels lorsque vous pouvez voter à nouveau.</li>
-    <li><strong>alarms :</strong> pour planifier les notifications de rappel.</li>
-    <li><strong>tabs :</strong> pour ouvrir la page de vote dans un nouvel onglet lorsque vous cliquez sur “Voter maintenant”.</li>
-  </ul>
+le pseudo que vous saisissez pour voter ;
+la date/heure de votre dernier vote (pour le rappel).
+Ces informations restent sur votre appareil et sont utilisées uniquement pour faire fonctionner l’extension.
 
-  <h2>Sécurité</h2>
-  <p>Tout le code JavaScript et HTML de l’extension est local et ne dépend d’aucun script distant. Cela garantit que vos données restent sécurisées et privées.</p>
+Permissions utilisées
+storage : enregistrer localement le pseudo et l’heure du dernier vote ;
+alarms : planifier les rappels (notifications) à intervalles définis ;
+notifications : afficher les rappels quand vous pouvez revoter ;
+tabs : ouvrir la page de vote lorsque vous cliquez sur « Voter maintenant » ;
+Autorisations d’accès à l’hôte
+L’extension déclare un accès limité à l’hôte : https://top-serveurs.net/*. Cela sert uniquement à ouvrir la page de vote correspondante lorsque vous choisissez d’y accéder depuis l’extension.
 
-  <h2>Contact</h2>
-  <p>Pour toute question concernant cette politique de confidentialité, vous pouvez nous contacter à : <a href="mailto:votereminder@example.com">votereminder@example.com</a></p>
+Contrôle par l’utilisateur
+Effacer les données locales : vous pouvez réinitialiser ou supprimer les données stockées via le menu de l’extension ou en supprimant l’extension de Chrome ;
+Révocation : vous pouvez désinstaller l’extension à tout moment (« Gérer les extensions ») ;
+Consentement : l’usage de l’extension vaut consentement à cette politique.
+Partage et vente de données
+Nous ne vendons pas et ne partageons pas de données utilisateurs avec des tiers.
 
-  <p>&copy; 2025 Vote Reminder. Tous droits réservés.</p>
-</body>
-</html>
+Sécurité
+Le code de l’extension s’exécute localement et n’inclut pas de scripts distants.
+Aucune transmission de données personnelles n’est effectuée par l’extension.
+
+Contact
+Pour toute question, contactez : contact@hoperp.vote
+
+© 2025 Hope RP Vote. Tous droits réservés.
